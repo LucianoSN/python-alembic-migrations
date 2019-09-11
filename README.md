@@ -11,7 +11,9 @@ $ alembic init --template generic ./migrations
 #### Edit alembic.ini with your connection details
 $ vim alembic.ini
 
-You can check the current connection using: $ alembic current
+You can check the current connection using: 
+
+$ alembic current
 
 #### Create first migration
 
@@ -23,5 +25,8 @@ $ alembic upgrade head
 
 #### Run our migration and create a table
 
-$ alembic downgrade base OR 
+$ alembic downgrade base 
+
+OR 
+
 $ alembic downgrade -1
