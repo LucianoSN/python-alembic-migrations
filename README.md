@@ -30,3 +30,7 @@ $ alembic downgrade base
 OR 
 
 $ alembic downgrade -1
+
+#### Add exist model using autogenerate
+
+alembic revision --autogenerate -m "Added User model"
